@@ -1,0 +1,27 @@
+/* x-small */
+@media (max-width: 576px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* small, medium*/
+@media (min-width: 576px) and (max-width: 992px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* large */
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* x-large, xx-large */
+@media (min-width: 1200px) {
+    body {
+        background-color: yellow;
+    }   
+}
